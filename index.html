@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>replace-text-app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="con">
+      <h1>Find and Replace Text</h1>
+      <h4>ocurrence:<span id="ocurrence">0</span></h4>
+      <textarea id="text" placeholder="Please enter Text"></textarea>
+      <input
+        type="text"
+        id="textareawords"
+        class="textareawords"
+        placeholder="write what you want to change"
+      />
+
+      <img src="./replace icon.png" alt="" />
+      <input type="text" id="replace" class="replace" placeholder="write what you want" />
+
+      <div class="check">
+        <input type="checkbox" id="check" onclick="casesensitive()" /><label
+          for=""
+          >caseSensitive</label
+        >
+      </div>
+    </div>
+    <div class="rep">
+      <button id="replace-btn">Replace</button>
+      <button id="replaceall">Replace All</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>

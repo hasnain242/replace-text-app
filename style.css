@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Open Sans,sans-serif;
+    margin: 0;
+}
+img{
+    width: 25px;
+    margin-top: 10px;
+    padding:  1px 0 ;
+    font-size: 18px;
+}
+.con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    top: 0%;
+    position: fixed;
+}
+textarea{
+    margin-top: 73px;
+    height: 300px;
+    width:800px;
+    padding: 15px;
+    font-size: 15px;
+}
+h4{
+    position: fixed;
+    top: 32px;
+    left: 238px;
+}
+.replace{
+    position: fixed;
+    right: 240px;
+    top: 380px;
+    padding: 8px;
+    width: 380px;
+}
+.textareawords{
+    position: fixed;
+    left: 240px;
+    top: 380px;
+    padding: 8px;
+    width: 380px;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 240px;
+    top: 415px;
+}
+.rep{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    align-items: center;
+    margin-top: 36px;
+}
+button{
+    width: 800px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #1d4ed7;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:active{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
