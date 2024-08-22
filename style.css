@@ -8,7 +8,7 @@ body{
 }
 img{
     width: 25px;
-    margin-top: 10px;
+    margin: -8px 8px ;
     padding:  1px 0 ;
     font-size: 18px;
 }
@@ -20,48 +20,34 @@ img{
     
 }
 h1{
-    top: 0%;
-    position: fixed;
+    margin: 10px 0 0;
 }
 textarea{
-    margin-top: 73px;
     height: 300px;
     width:800px;
     padding: 15px;
     font-size: 15px;
 }
 h4{
-    position: fixed;
-    top: 32px;
-    left: 238px;
+margin: 5px 700px 5px 0;
 }
-.replace{
-    position: fixed;
-    right: 240px;
-    top: 380px;
-    padding: 8px;
-    width: 380px;
+
+.input{
+    margin: 20px 0;
 }
-.textareawords{
-    position: fixed;
-    left: 240px;
-    top: 380px;
+.input input{
     padding: 8px;
     width: 380px;
 }
 .check{
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    left: 240px;
-    top: 415px;
+    margin-right: 690px;
+   
 }
 .rep{
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-end; */
-    align-items: center;
-    margin-top: 36px;
+   
+    align-items: center
 }
 button{
     width: 800px;
@@ -75,4 +61,34 @@ button{
 }
 button:active{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+@media (max-width:500px) {
+    textarea{
+        width: 300px;
+    }button{
+        width: 300px;
+    }h1{
+        font-size: 22px;
+    }.input input{
+        width: 125px;
+    }h4{
+          margin: 5px 200px 5px 0;
+    }.check{
+        margin-right: 190px;
+    }
+}
+@media  (min-width:500px) and (max-width:900px) {
+    textarea{
+        width: 550px;
+    }button{
+        width: 550px;
+    }h1{
+        font-size: 22px;
+    }.input input{
+        width: 251px;
+    }h4{
+          margin: 5px 450px 5px 0;
+    }.check{
+        margin-right: 441px;
+    }
 }
